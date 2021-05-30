@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desafio 3</title>
+
+        <style media="screen" type="text/css">
+            body{
+                margin: 0;
+                padding: 0;
+            }
+            .flags{
+                margin:0 auto;
+                width: 70%;
+                height: 50rem;
+                position: relative;
+                box-sizing: border-box;
+                align-items: center;
+                padding-top: 2rem;
+                text-align: center;
+            }
+            .flag{
+                border: 1px #000 solid ;
+                width: 18rem;
+                height: 10rem;
+                display: inline-block;
+                margin: 1rem;
+                position: relative;
+            }
+            #españa{
+                background-color: red;
+            }
+            .yellow{
+                height: 45%;
+                background-color: yellow;
+                position: relative;
+                top:50%;
+                transform: translateY(-50%);
+            }
+            #dinamarca{
+                background-color: red;
+            }
+            .white{
+                height: 10%;
+                background-color: #fff;
+                position: relative;
+                top:50%;
+                transform: translatey(-50%);
+            }
+            .white-y{
+                height: 100%;
+                width: 6%;
+                left: 25%;
+                top: 0;
+                position: absolute;
+                background-color: #fff;
+            }
+            .green{
+                height: 35%;
+                position: relative;
+                top:0;
+                width: 100%;
+                background-color: green;
+            }
+            .black{
+                height: 35%;
+                position: relative;
+                top: 30%;
+                width: 100%;
+                background-color: #000;
+            }
+            .red{
+                height: 100%;
+                position: absolute;
+                background-color: red;
+                width: 28%;
+                top: 0;
+
+            }
+            .round-red{
+                width: 5rem;
+                height: 5rem;
+                position: absolute;
+                border-radius: 50%;
+                background-color: red;
+                top: 25%;
+                right: 50%;
+                transform: translateX(50%);
+            }
+            .card-flag{
+                width: 40%;
+                position: relative;
+                display: inline-block;
+            }
+            p{
+                left: 2rem;
+                position: relative;
+                text-align: start;
+                margin: 0 auto;
+            }
+
+        </style>
+    </head>
+    <body>
+        <section class="flags">
+            <div class="card-flag">
+                <div class="flag" id="españa">
+                    <div class="yellow"></div>
+                </div>
+                <p>España</p>
+            </div>
+
+            <div class="card-flag">
+                <div class="flag" id="dinamarca">
+                    <div class="white"></div>
+                    <div class="white-y"></div>
+                </div>
+                <p>Dinamarca</p>
+            </div>
+
+            <div class="card-flag">
+                <div class="flag" id="emiratos">
+                    <div class="green"></div>
+                    <div class="black"></div>
+                    <div class="red"></div>
+                </div>
+                <p>Emiratos Árabes</p>
+            </div>
+            
+            <div class="card-flag">
+                <div class="flag" id="japon">
+                    <div class="round-red"></div>
+                </div>
+                <p>Japón</p>
+            </div>
+            
+        </section>
+    </body>
+</html>
